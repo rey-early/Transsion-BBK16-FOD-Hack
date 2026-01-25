@@ -14,6 +14,8 @@ This repository outlines the **minimal manual changes** required to enable on‑
 
 1. **Modify** `SystemUI.apk` according to the changes shown in this commit:
    [View Commit](https://github.com/ryanistr/Transsion-OxygenOS-FOD-Hack/commit/76ba670ac018f1aef14f71d7f9268dd1971fae69#diff-73922a1b928a9ae692c1d51cd3985caa907a1065ae0e7351179f78881bc2cca8)
+   
+   For OS16 or Android16, follow this smali patch [OS16 Patch Commit](https://github.com/ryanistr/oplus16_tran_udfps_hack/commit/4fead03da47fb47f47d7016674c2c5b5aa5bed29)
 
 2. **Import** the AOSP FOD HALs that provide a working fingerprint‑on‑display implementation.
 
@@ -38,5 +40,5 @@ This patch was only used on Goodix FOD. For other fp types, do try and see
 ---
 
 ## Credit
-
-Credit **@ryanistr** on GitHub or **@rianixia** on Telegram, or reference this GitHub repository when used to fix your FOD.
+irawansalt & fajarxtr for Transsion's AOSP FOD HALs
+**@ryanistr** on GitHub or **@rianixia** on Telegram for adding the Impl for OOS
